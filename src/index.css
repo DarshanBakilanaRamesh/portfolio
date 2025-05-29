@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-secondary-900 font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section {
+    @apply py-20;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 relative inline-block;
+  }
+  
+  .section-title::after {
+    content: "";
+    @apply absolute -bottom-2 left-0 w-16 h-1 bg-primary-500;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-300 focus:outline-none;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-600 shadow-sm;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-secondary-900 border border-secondary-200 hover:border-secondary-300 shadow-sm;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl overflow-hidden shadow-custom transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .nav-link {
+    @apply text-secondary-600 hover:text-primary-500 transition-colors duration-300;
+  }
+
+  .nav-link.active {
+    @apply text-primary-500 font-medium;
+  }
+}
