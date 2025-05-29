@@ -3,9 +3,9 @@ import ScrollAnimation from "../utils/ScrollAnimation";
 
 const LanguageProficiency = () => {
   const languages = [
-    { name: "English", level: "C2", label: "Native/Fluent" },
+    { name: "English", level: "C1", label: "Native/Fluent" },
     { name: "German", level: "B1", label: "Intermediate" },
-    { name: "Kannada", level: "C2", label: "Native" },
+    { name: "Kannada", level: "C1", label: "Native" },
     { name: "Telugu", level: "C1", label: "Advanced" },
     { name: "Tamil", level: "C1", label: "Advanced" },
     { name: "Hindi", level: "C1", label: "Advanced" },
