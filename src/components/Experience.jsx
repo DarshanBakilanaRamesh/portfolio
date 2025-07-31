@@ -5,14 +5,16 @@ import { FiBriefcase, FiCalendar, FiBookOpen } from "react-icons/fi";
 const Experience = () => {
   const workExperiences = [
     {
-      role: "Software Development (Linux) Intern",
-      company: "CONTINENTAL",
+      role: "Software Developer",
+      company: "Continental AG",
       duration: "15/08/2022",
       location: "Lindau, Germany",
       description: [
-        "Supported the bring-up of a Continuous Integration (CI) system which involves integration and testing of software products running on a High-Performance Computing System (HPC).",
-        "It is based on Linux and the major tasks were scripting (PYTHON) and documenting (JIRA AND CONFLUENCE).",
-        "Software: Python, Github, JIRA, Confluence"
+        "Designed and deployed CI/CD pipelines on a Linux based High PerformanceComputing ( HPC ) system, reducing software build and integration time byapproximately 30% for autonomous driving platforms.",
+        "Developed Python scripts for receiving, processing, and segregating LIDAR sensordata from autonomous vehicles, enabling efficient data flow into testing and analyticsmodules.",
+        "Utilized GitHub for version control to manage collaborative script development anddocumentation",
+        "Created custom queries using Jira Query Language ( JQL ) to allow team members toquery project progress and visualize KPIs, improving transparency across cross-functional teams.",
+        "Authored and maintained technical documentations in Confluence and developedinteractive dashboards, enabling real-time visualization of development metrics forboth technical and non-technical stakeholders",
       ]
     },
     {

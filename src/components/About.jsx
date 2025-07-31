@@ -52,7 +52,7 @@ const About = () => {
 
             <ScrollAnimation delay={0.3}>
               <a
-                href="/Darshan Bakilana Ramesh CV.pdf"
+                href="/Darshan_Bakilana_Ramesh_CV.pdf"
                 className="btn btn-primary inline-flex items-center hover:scale-105 transition-transform duration-200"
                 download
               >

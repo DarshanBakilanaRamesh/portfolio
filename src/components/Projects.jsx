@@ -7,9 +7,9 @@ const Projects = () => {
     {
       title: "Masters Thesis - Extraction and Analysis of Dataset Constraints for Plausibility of Data",
       description: [
-        "Developed methods to extract and compare dataset constraints using both Human-written and Machine-learned approaches.",
-        "Generated datasets from classifiers (Decision tree and Support vector machine) disagreements. Analysis of both Human-written and Machine learned (Isolation Forest) methods for Automating constraint detection and Outlier Identification.",
-        "Developed methods to generate plausible datasets automatically, that fully adhere to the identified constraints using formal reasoning via SMT solvers."
+        "Designed and implemented a framework to extract, evaluate, and compare datasetconstraints using both human-defined rules and machine-learned models (e.g., Isolation Forest).",
+        "Analyzed classifier disagreement (Decision Trees vs. Support Vector Machines) to identify implausible data points and generate targeted test datasets.",
+        "Developed algorithms to automatically synthesize plausible datasets that strictlysatisfy extracted constraints using formal reasoning via SMT solvers (Z3), improving constraint validation reliability.",
       ],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       tags: ["Python", "SMT-LIB", "NumPy", "Pandas", "Scikit-learn", "PyTorch", "Visual Studio Code", "Z3", "Jupyter Notebooks", "Matplotlib", "MLDiff"],
@@ -32,6 +32,16 @@ const Projects = () => {
       image: "/Pesti_robot.jpg",
       tags: ["C++", "Catia", "Ansys", "Autodesk Inventor", "Arduino mega 328", "L293D H-bridge IC"],
       drive: "https://drive.google.com/file/d/1CZwvNyxdZC9FbP8-HEilGmxqjTH4gZ8L/view?usp=sharing"
+    },
+    {
+      title: "LLM-Powered Support Assistant for Robotics Systems",
+      description: [
+        "Built a domain-specific chatbot to answer technical robotics questions using LLMs.",
+        "Supports queries on ROS, SLAM, sensors, and perception modules."
+      ],
+      image: "/chatbot.jpg",
+      tags: ["LLM", "LangChain", "Python", "PDF QA", "Robotics", "Streamlit"],
+      github: "https://github.com/DarshanBakilanaRamesh/robotics_qa_bot"
     },
     {
       title: "Diploma Project – Fabrication of three wheeled handicapped steering propulsion",
