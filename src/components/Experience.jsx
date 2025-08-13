@@ -10,11 +10,12 @@ const Experience = () => {
       duration: "15/08/2022",
       location: "Lindau, Germany",
       description: [
-        "Designed and deployed CI/CD pipelines on a Linux based High PerformanceComputing ( HPC ) system, reducing software build and integration time byapproximately 30% for autonomous driving platforms.",
-        "Developed Python scripts for receiving, processing, and segregating LIDAR sensordata from autonomous vehicles, enabling efficient data flow into testing and analyticsmodules.",
-        "Utilized GitHub for version control to manage collaborative script development anddocumentation",
-        "Created custom queries using Jira Query Language ( JQL ) to allow team members toquery project progress and visualize KPIs, improving transparency across cross-functional teams.",
-        "Authored and maintained technical documentations in Confluence and developedinteractive dashboards, enabling real-time visualization of development metrics forboth technical and non-technical stakeholders",
+        "Built Python scripts to process .pcd files from autonomous vehicle LIDAR sensors stored in ROSBag (.bag) logs. Cleaned/filtered 3D point clouds with NumPy, enriched with metadata via Pandas, and exported to CSV for ML and analytics teams.",
+        "Verified data quality using Open3D, ensuring noise removal did not discard critical information.",
+        "Designed and deployed CI/CD pipelines with Jenkins, Bash, and GitHub webhooks on a Linux HPC cluster (SLURM), automating build, test, and deployment, cutting integration time by 30%.",
+        "Automated rollback and failure alerts (email/Slack) and optimized HPC module loading for faster perception algorithm testing.",
+        "Managed GitHub workflows, enforced code reviews, and wrote contribution guidelines.",
+        "Created Jira (JQL) KPI dashboards tracking sprint velocity, bug counts, and build times. Integrated with Confluence for real-time stakeholder updates.",
       ]
     },
     {

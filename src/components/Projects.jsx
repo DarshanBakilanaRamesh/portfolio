@@ -18,10 +18,11 @@ const Projects = () => {
     {
       title: "Masters Project – Software Engineering for Trusted Autonomous Vehicles",
       description: [
-        "Developed software framework for (small-scale or virtual) autonomous vehicles. Implemented Lane detection (Image processing), Object recognition, Object detection (Lidar), planning and executing manoeuvres, software architecture and interfaces, and software quality assurance (testing, simulation)."
+        "Designed and implemented a complete software framework for (small-scale or virtual) autonomous vehicles, integrating lane detection (image processing), object detection (Lidar), object recognition, obstacle avoidance, path planning, and manoeuvre execution.",
+        "Developed modular software architecture with ROS nodes and interfaces, and applied software quality assurance through rigorous testing and simulation.",
       ],
       image: "/SETAV.jpg",
-      tags: ["Ubuntu 20.04", "Python (OpenCV, Numpy)", "ROS (Noetic)", "Rviz", "Lego EV3", "Raspberry Pi"],
+      tags: ["Ubuntu 20.04", "Python (OpenCV, Numpy)", "ROS (Noetic)", "Rviz", "Lego EV3", "Raspberry Pi", "RP LiDAR"],
       github: "https://github.com/se-buw/setav/tree/master",
     },
     {
@@ -36,11 +37,11 @@ const Projects = () => {
     {
       title: "LLM-Powered Support Assistant for Robotics Systems",
       description: [
-        "Built a domain-specific chatbot to answer technical robotics questions using LLMs.",
-        "Supports queries on ROS, SLAM, sensors, and perception modules."
+        "Built a domain-specific chatbot for answering technical questions on robotics (ROS, sensors, SLAM) using a Retrieval-Augmented Generation (RAG) approach with PDF-based context retrieval and large language models.",
+        "Developed a modular QA engine leveraging semantic search and vector embeddings to retrieve domain-relevant content, integrated with a web interface for interactive queries.",
       ],
       image: "/chatbot.jpg",
-      tags: ["LLM", "LangChain", "Python", "PDF QA", "Robotics", "Streamlit"],
+      tags: ["LLM", "LangChain", "Python", "PDF QA", "Semantic Search", "Vector Embeddings", "Streamlit", "Docker"],
       github: "https://github.com/DarshanBakilanaRamesh/robotics_qa_bot"
     },
     {
