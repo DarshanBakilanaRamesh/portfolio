@@ -28,6 +28,15 @@ const Experience = () => {
       ]
     },
     {
+      role: "CNC machines Department Intern",
+      company: "Ace Micromatic Group (AMG)",
+      duration: "07/2018",
+      location: "Bangalore, India",
+      description: [
+        "Interned on various series of CNC lathe machines (Jobber, Superjobber, and LT series) and tests like Ballbar, geometrical, laser, coolant, profile, load, and final inspection.",
+      ]
+    },
+    {
       role: "Aviation Department Intern",
       company: "Hindustan Aeronautics Limited (HAL)",
       duration: "06/2018",
