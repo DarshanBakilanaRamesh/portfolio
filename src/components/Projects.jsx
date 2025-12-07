@@ -10,9 +10,10 @@ const Projects = () => {
         "Designed and implemented a framework to extract, evaluate, and compare datasetconstraints using both human-defined rules and machine-learned models (e.g., Isolation Forest).",
         "Analyzed classifier disagreement (Decision Trees vs. Support Vector Machines) to identify implausible data points and generate targeted test datasets.",
         "Developed algorithms to automatically synthesize plausible datasets that strictlysatisfy extracted constraints using formal reasoning via SMT solvers (Z3), improving constraint validation reliability.",
+        "Visualized results with Matplotlib and designed interactive dashboards in Power BI, integrating workflows via Jupyter Notebook and VS Code for experimentation.",
       ],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      tags: ["Python", "SMT-LIB", "NumPy", "Pandas", "Scikit-learn", "PyTorch", "Visual Studio Code", "Z3", "Jupyter Notebooks", "Matplotlib", "MLDiff"],
+      tags: ["Python", "SMT-LIB", "NumPy", "Pandas", "Scikit-learn", "PyTorch", "Visual Studio Code", "Z3", "Jupyter Notebooks", "Matplotlib", "MLDiff", "Docker"],
       github: "https://github.com/DarshanBakilanaRamesh/constraints-extraction-analysis-plausibility"
     },
     {
