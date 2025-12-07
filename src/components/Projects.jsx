@@ -46,6 +46,14 @@ const Projects = () => {
       github: "https://github.com/DarshanBakilanaRamesh/robotics_qa_bot"
     },
     {
+      title: "DevOps Automation and Cloud Deployment",
+      description: [
+        "Developed and deployed a Node.js web application on AWS EC2, containerized with Docker, and automated builds and deployments through GitLab CI/CD pipelines with integrated testing stages.",
+      ],
+      image: "/devops.jpg",
+      tags: ["Node.js", "AWS EC2", "Docker", "Kubernetes", "GitLab", "Helmcharts", "ArgoCD"],
+    },
+    {
       title: "Diploma Project – Fabrication of three wheeled handicapped steering propulsion",
       description: [
         "Designed and fabricated a manually operated three-wheeled vehicle for physically challenged individuals.",
