@@ -19,12 +19,15 @@ const Experience = () => {
       ]
     },
     {
-      role: "CNC machines Department Intern",
-      company: "Ace Micromatic Group (AMG)",
-      duration: "07/2018",
-      location: "Bangalore, India",
+      role: "Data Engineer",
+      company: "Jay Blues Technologies",
+      duration: "08/2019",
+      location: "India",
       description: [
-        "Interned on various series of CNC lathe machines (Jobber, Superjobber, and LT series) and tests like Ballbar, geometrical, laser, coolant, profile, load, and final inspection.",
+        "Developed and validated machine learning models (classification & regression) achieving up to 85% accuracy, driving customer behavior analysis initiatives.",
+        "Conducted EDA to uncover anomalies and patterns, generating insights that guided 2+ product strategy decisions.",
+        "Automated model training, validation, and deployment with CI/CD pipelines, Docker, and AWS, integrating Grafana for monitoring and real-time performance tracking.",
+        "Designed interactive dashboards in Tableau and Power BI, enabling stakeholders to track KPIs and optimize retention strategies.",
       ]
     },
     {
