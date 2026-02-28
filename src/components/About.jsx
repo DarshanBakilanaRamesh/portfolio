@@ -22,10 +22,10 @@ const About = () => {
               <h2 className="section-title">Über mich</h2>
               <p className="text-secondary-700 mb-6 text-justify leading-8">
                 Ich bin ein interdisziplinärer DevOps und KI-Engineer mit Erfahrung in skalierbaren Cloud-Infrastrukturen auf AWS sowie 
-                automatisierten CI/CD-Pipelines mit Jenkins und GitHub Actions. Mein Schwerpunkt liegt auf Infrastructure as Code mit 
+                automatisierten CI/CD Pipelines mit Jenkins und GitHub Actions. Mein Schwerpunkt liegt auf Infrastructure as Code mit 
                 Terraform und containerisierten Deployments mit Docker und Kubernetes.
               </p>
-              <p className="text-secondary-700 mb-6">
+              <p className="text-secondary-700 mb-6 text-justify leading-8">
               Mit Ansible automatisiere ich Konfigurations- und Deployment-Prozesse und entwickle zuverlässige, reproduzierbare 
               Systeme im Bereich Machine Learning und Robotik.
               </p>
