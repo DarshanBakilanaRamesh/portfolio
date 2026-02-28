@@ -3,12 +3,12 @@ import ScrollAnimation from "../utils/ScrollAnimation";
 
 const LanguageProficiency = () => {
   const languages = [
-    { name: "English", level: "C1", label: "Native/Fluent" },
-    { name: "German", level: "B2", label: "Intermediate" },
-    { name: "Kannada", level: "C1", label: "Native" },
-    { name: "Telugu", level: "C1", label: "Advanced" },
-    { name: "Tamil", level: "C1", label: "Advanced" },
-    { name: "Hindi", level: "C1", label: "Advanced" },
+    { name: "Englisch", level: "C2", label: "Verhandlungssicher / Fließend" },
+    { name: "Deutsch", level: "B2", label: "Fortgeschrittene Kenntnisse" },
+    { name: "Kannada", level: "C2", label: "Muttersprache" },
+    { name: "Telugu", level: "C1", label: "Sehr gute Kenntnisse" },
+    { name: "Tamil", level: "C1", label: "Fortgeschrittene Kenntnisse" },
+    { name: "Hindi", level: "C1", label: "Fortgeschrittene Kenntnisse" },
   ];
 
   return (
@@ -17,10 +17,10 @@ const LanguageProficiency = () => {
         <div className="text-center mb-16">
           <ScrollAnimation>
             <h2 className="section-title mx-auto after:left-1/2 after:-translate-x-1/2">
-              Language Proficiency
+              Sprachkenntnisse
             </h2>
             <p className="text-secondary-600 max-w-2xl mx-auto">
-              Here's a quick overview of my language skills based on CEFR levels.
+              Hier finden Sie eine kurze Übersicht meiner Sprachkenntnisse gemäß dem Gemeinsamen Europäischen Referenzrahmen (GER).
             </p>
           </ScrollAnimation>
         </div>
