@@ -19,8 +19,8 @@ const Hero = () => {
               Darshan Bakilana Ramesh
             </h1>
             <p className="text-xl md:text-2xl text-secondary-600 mb-8 text-justify">
-              Interdisziplinärer <span className="text-primary-500 font-medium">DevOps Engineer</span> mit einer Leidenschaft für 
-              vertrauenswürdige KI und Open-Source-Beiträge.
+              Interdisziplinärer <span className="text-primary-500 font-medium">DevOps Engineer</span> mit einer Leidenschaft 
+              <br />für vertrauenswürdige KI und Open-Source-Beiträge.
             </p>
           </ScrollAnimation>
           
