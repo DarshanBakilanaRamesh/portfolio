@@ -16,7 +16,8 @@ const Projects = () => {
     {
       title: "Masters Projekt – Software Engineering für Trusted Autonomous Vehicles",
       description: [
-        "Entwicklung eines ROS (Noetic) basierten Frameworks auf Ubuntu 20.04 (Linux) mit Python (OpenCV, NumPy), Rviz und Raspberry Pi mit LiDAR & LEGO EV3, Integration von Spurenerkennung, Hindernisvermeidung und Pfadplanung, validiert durch Simulation und Tests."
+        "Entwicklung eines ROS (Noetic) basierten Frameworks auf Ubuntu 20.04 (Linux) mit Python (OpenCV, NumPy), Rviz und Raspberry Pi mit LiDAR & LEGO EV3.", 
+        "Integration von Spurenerkennung, Hindernisvermeidung und Pfadplanung, validiert durch Simulation und Tests."
       ],
       image: "/SETAV.jpg",
       tags: ["Ubuntu 20.04", "Python (OpenCV, Numpy)", "ROS (Noetic)", "Rviz", "Lego EV3", "Raspberry Pi", "RP LiDAR"],
@@ -35,7 +36,7 @@ const Projects = () => {
     {
       title: "Bachelor Projekt – Entwurf und Bau eines Pestizid Sprühroboters",
       description: [
-        "Entwicklung eines automatisierten Pestizid-Sprühroboters mit RC-Steuerung und einem C++-Kontrollsystem auf Arduino Mega 328, Versionierung mit Git."
+        "Entwicklung eines automatisierten Pestizid-Sprühroboters mit RC-Steuerung und einem C++ Kontrollsystem auf Arduino Mega 328, Versionierung mit Git."
       ],
       image: "/Pesti_robot.jpg",
       tags: ["C++", "Git", "Autodesk Inventor", "Arduino mega 328", "L293D H-bridge IC"],
@@ -75,11 +76,11 @@ const Projects = () => {
                   {Array.isArray(project.description) ? (
                     <ul className="list-disc list-inside marker:text-primary-500 text-secondary-600 mb-4 flex-grow space-y-1">
                       {project.description.map((point, idx) => (
-                        <li key={idx}>{point}</li>
+                        <li key={idx} className="text-justify leading-8">{point}</li>
                       ))}
                     </ul>
                   ) : (
-                    <p className="text-secondary-600 mb-4 flex-grow">{project.description}</p>
+                    <p className="text-secondary-600 mb-4 flex-grow text-justify leading-8">{project.description}</p>
                   )}
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag, i) => (
