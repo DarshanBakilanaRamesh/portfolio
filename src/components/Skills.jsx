@@ -5,12 +5,12 @@ import { FiCode, FiLayers, FiDatabase, FiTrello, FiSettings, FiCpu } from "react
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming & Scripting",
+      title: "Programmierung & Skripting",
       icon: <FiCode />,
-      skills: ["Python", "C++", "Java", "SQL", "Bash / Shell Scripting"],
+      skills: ["Python", "C++", "Java", "SQL", "Bash / Shell Skripting"],
     },
     {
-      title: "Cloud & Infrastructure",
+      title: "Cloud & Infrastruktur",
       icon: <FiDatabase />,
       skills: ["AWS (EC2, EKS)", "Docker", "Kubernetes", "Helm Charts", "Terraform", "Ansible"],
     },
@@ -20,18 +20,18 @@ const Skills = () => {
       skills: ["Jenkins", "GitHub Actions", "Git / GitLab", "GitOps (Argo CD)", "Gradle"],
     },
     {
-      title: "Linux & Developer Tools",
+      title: "Linux & Entwickler Tools",
       icon: <FiSettings />,
       skills: [
         "Linux (Ubuntu)",
-        "Shell Automation",
+        "Shell Automatisierung",
         "Build Pipelines",
         "Release Workflows",
-        "Environment Configuration",
+        "Umgebungskonfiguration",
       ],
     },
     {
-      title: "Machine Learning & Robotics",
+      title: "Machine Learning & Robotik",
       icon: <FiCpu />,
       skills: [
         "Scikit-learn",
@@ -43,7 +43,7 @@ const Skills = () => {
       ],
     },
     {
-      title: "Monitoring & Collaboration",
+      title: "Monitoring & Zusammenarbeit",
       icon: <FiTrello />,
       skills: ["Grafana", "Prometheus", "JIRA", "Confluence", "Power BI", "Streamlit"],
     },
