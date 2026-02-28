@@ -5,64 +5,43 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 const Projects = () => {
   const projects = [
     {
-      title: "Masters Thesis - Extraction and Analysis of Dataset Constraints for Plausibility of Data",
+      title: "DevOps-Automatisierung und Cloud Deployment",
       description: [
-        "Designed and implemented a framework to extract, evaluate, and compare datasetconstraints using both human-defined rules and machine-learned models (e.g., Isolation Forest).",
-        "Analyzed classifier disagreement (Decision Trees vs. Support Vector Machines) to identify implausible data points and generate targeted test datasets.",
-        "Developed algorithms to automatically synthesize plausible datasets that strictlysatisfy extracted constraints using formal reasoning via SMT solvers (Z3), improving constraint validation reliability.",
-        "Visualized results with Matplotlib and designed interactive dashboards in Power BI, integrating workflows via Jupyter Notebook and VS Code for experimentation.",
+        "Entwicklung und Deployment einer Node.js Webanwendung auf AWS EC2 und Kubernetes.",
+        "Containerisierung mit Docker, Bereitstellung über Helm-Charts, GitOps Deployments mit Argo CD sowie automatisierte Builds und Tests via GitLab CI/CD.",
       ],
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      tags: ["Python", "SMT-LIB", "NumPy", "Pandas", "Scikit-learn", "PyTorch", "Visual Studio Code", "Z3", "Jupyter Notebooks", "Matplotlib", "MLDiff", "Docker"],
-      github: "https://github.com/DarshanBakilanaRamesh/constraints-extraction-analysis-plausibility"
+      image: "/devops.jpg",
+      tags: ["Node.js", "AWS EC2", "Docker", "Kubernetes", "GitLab", "Helmcharts", "ArgoCD"],
     },
     {
-      title: "Masters Project – Software Engineering for Trusted Autonomous Vehicles",
+      title: "Masters Projekt – Software Engineering für Trusted Autonomous Vehicles",
       description: [
-        "Designed and implemented a complete software framework for (small-scale or virtual) autonomous vehicles, integrating lane detection (image processing), object detection (Lidar), object recognition, obstacle avoidance, path planning, and manoeuvre execution.",
-        "Developed modular software architecture with ROS nodes and interfaces, and applied software quality assurance through rigorous testing and simulation.",
+        "Entwicklung eines ROS (Noetic) basierten Frameworks auf Ubuntu 20.04 (Linux) mit Python (OpenCV, NumPy), Rviz und Raspberry Pi mit LiDAR & LEGO EV3, Integration von Spurenerkennung, Hindernisvermeidung und Pfadplanung, validiert durch Simulation und Tests."
       ],
       image: "/SETAV.jpg",
       tags: ["Ubuntu 20.04", "Python (OpenCV, Numpy)", "ROS (Noetic)", "Rviz", "Lego EV3", "Raspberry Pi", "RP LiDAR"],
       github: "https://github.com/se-buw/setav/tree/master",
     },
     {
-      title: "Bachelor Project – Design and fabrication of pesticide spraying robot",
+      title: "LLM-gestützter Support-Assistent für Robotiksysteme",
       description: [
-        "Designed and developed pesticide spraying robot. Analyzed the robot motion in various terrain conditions. Developed a control scheme for navigation and efficient spraying mechanism."
-      ],
-      image: "/Pesti_robot.jpg",
-      tags: ["C++", "Catia", "Ansys", "Autodesk Inventor", "Arduino mega 328", "L293D H-bridge IC"],
-      drive: "https://drive.google.com/file/d/1CZwvNyxdZC9FbP8-HEilGmxqjTH4gZ8L/view?usp=sharing"
-    },
-    {
-      title: "LLM-Powered Support Assistant for Robotics Systems",
-      description: [
-        "Built a domain-specific chatbot for answering technical questions on robotics (ROS, sensors, SLAM) using a Retrieval-Augmented Generation (RAG) approach with PDF-based context retrieval and large language models.",
-        "Developed a modular QA engine leveraging semantic search and vector embeddings to retrieve domain-relevant content, integrated with a web interface for interactive queries.",
+        "Entwicklung und Containerisierung eines Chatbot für Robotik (ROS, Sensoren, SLAM) mit Python, LangChain, FAISS, Streamlit und Docker.",
+        "Anwendung von RAG mit semantischer Suche zur Bereitstellung domänenspezifischer Antworten über eine Weboberfläche, Deployment via Ansible Playbook (NGINX).",
       ],
       image: "/chatbot.jpg",
-      tags: ["LLM", "LangChain", "Python", "PDF QA", "Semantic Search", "Vector Embeddings", "Streamlit", "Docker"],
+      tags: ["LLM", "LangChain", "Python", "PDF QA", "Semantic Search", "Vector Embeddings", "NGINX", "Streamlit", "Docker"],
       github: "https://github.com/DarshanBakilanaRamesh/robotics_qa_bot"
     },
     {
-      title: "DevOps Automation and Cloud Deployment",
+      title: "Bachelor Projekt – Entwurf und Bau eines Pestizid Sprühroboters",
       description: [
-        "Developed and deployed a Node.js web application on AWS EC2, containerized with Docker, and automated builds and deployments through GitLab CI/CD pipelines with integrated testing stages.",
+        "Entwicklung eines automatisierten Pestizid-Sprühroboters mit RC-Steuerung und einem C++-Kontrollsystem auf Arduino Mega 328, Versionierung mit Git."
       ],
-      image: "/devops.jpg",
-      tags: ["Node.js", "AWS EC2", "Docker", "Kubernetes", "GitLab", "Helmcharts", "ArgoCD"],
+      image: "/Pesti_robot.jpg",
+      tags: ["C++", "Git", "Autodesk Inventor", "Arduino mega 328", "L293D H-bridge IC"],
+      drive: "https://drive.google.com/file/d/1CZwvNyxdZC9FbP8-HEilGmxqjTH4gZ8L/view?usp=sharing"
     },
-    {
-      title: "Diploma Project – Fabrication of three wheeled handicapped steering propulsion",
-      description: [
-        "Designed and fabricated a manually operated three-wheeled vehicle for physically challenged individuals.",
-        "Integrated a steering-based propulsion mechanism to allow easier and safer navigation."
-      ],
-      image: "/Diploma.jpg",
-      tags: ["Catia"],
-    }
-  ];
+];
 
   return (
     <section id="projects" className="section bg-secondary-50">
@@ -70,10 +49,12 @@ const Projects = () => {
         <div className="text-center mb-16">
           <ScrollAnimation>
             <h2 className="section-title mx-auto after:left-1/2 after:-translate-x-1/2">
-              My Projects
+              Meine Projekte
             </h2>
             <p className="text-secondary-600 max-w-2xl mx-auto">
-              Here are some of my recent projects that showcase my skills, approach to problem-solving, and ability to deliver high-quality solutions.
+              Nachfolgend finden Sie eine Auswahl meiner aktuellen Projekte, die meine technischen 
+              Fähigkeiten, meine analytische Arbeitsweise sowie meine Kompetenz zur Umsetzung qualitativ 
+              hochwertiger Lösungen verdeutlichen.
             </p>
           </ScrollAnimation>
         </div>
@@ -157,7 +138,7 @@ const Projects = () => {
               className="btn btn-primary inline-flex items-center"
             >
               <FiGithub className="mr-2" />
-              View More on GitHub
+              Mehr auf GitHub ansehen
             </a>
           </ScrollAnimation>
         </div>
