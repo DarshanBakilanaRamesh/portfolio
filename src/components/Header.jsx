@@ -19,12 +19,12 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Experience", href: "#experience" },
-    { name: "Contact", href: "#contact" },
+    { name: "Startseite", href: "#home" },
+    { name: "Über mich", href: "#about" },
+    { name: "Fähigkeiten", href: "#skills" },
+    { name: "Projekte", href: "#projects" },
+    { name: "Erfahrung", href: "#experience" },
+    { name: "Kontakt", href: "#contact" },
   ];
 
   return (
