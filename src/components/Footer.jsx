@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Darshan Bakilana Ramesh</h3>
             <p className="text-secondary-300 mb-4">
-              A passionate developer focused on delivering impactful software solutions across diverse platforms.
+              DevOps und KI-Engineer mit Fokus auf skalierbare Cloud-Infrastrukturen, automatisierte CI/CD-Pipelines und zuverlässige Machine-Learning Systeme.
             </p>
             <div className="flex space-x-4">
               <a
@@ -47,9 +47,9 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-semibold mb-4">Schnellzugriff</h3>
             <ul className="space-y-2">
-              {["Home", "About", "Skills", "Projects", "Experience", "Contact"].map((section) => (
+              {["Startseite", "Über mich", "Fähigkeiten", "Projekte", "Berufserfahrung", "Kontakt"].map((section) => (
                 <li key={section}>
                   <a
                     href={`#${section.toLowerCase()}`}
@@ -64,7 +64,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
+            <h3 className="text-xl font-semibold mb-4">Kontaktinformationen</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <FiMail className="mt-1 mr-3 text-primary-400" />
@@ -72,7 +72,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <FiMapPin className="mt-1 mr-3 text-primary-400" />
-                <span className="text-secondary-300">Weimar, Germany</span>
+                <span className="text-secondary-300">Weimar, Deutschland</span>
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-secondary-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Darshan Bakilana Ramesh. All rights reserved.
+            © {new Date().getFullYear()} Darshan Bakilana Ramesh. Alle Rechte vorbehalten.
           </p>
           <button
             onClick={scrollToTop}
