@@ -5,6 +5,18 @@ import { FiBriefcase, FiCalendar, FiBookOpen } from "react-icons/fi";
 const Experience = () => {
   const workExperiences = [
     {
+      role: "Masterarbeit – Machine Learning & Data Engineering",
+      company: "Bauhaus Universität",
+      duration: "Jul 2024 – Apr 2025",
+      location: "Weimar, Germany",
+      description: [
+        "Entwicklung eines Python Frameworks (NumPy, Pandas, Scikit-learn, PyTorch) zur Extraktion und Validierung von über 100 Constraints in realen Datensätzen anhand handgeschriebener Regeln und ML-Modelle (Isolation Forest, Decision Trees, SVM).",
+        "Entwicklung von Algorithmen mit dem Z3 SMT-Solver, Verbesserung der Zuverlässigkeit der Constraint-Validierung um 85%, sowie Automatisierung der Evaluierungs workflows mit MLDiff und Git.",
+        "Containerisierung der Experimente mit Docker für Reproduzierbarkeit, Skalierbarkeit und einfache Bereitstellung in verschiedenen Umgebungen.",
+        "Visualisierung der Ergebnisse mit Matplotlib und Entwicklung interaktiver Dashboards in Power BI, Integration der Workflows über Jupyter Notebook und VS Code.",
+      ]
+    },
+    {
       role: "Software Developer",
       company: "Continental AG",
       duration: "15/08/2022",
@@ -86,9 +98,11 @@ const Experience = () => {
       <div className="container">
         <div className="mb-16">
           <ScrollAnimation>
-            <h2 className="section-title">Experience</h2>
+            <h2 className="section-title">Berufserfahrung</h2>
             <p className="text-secondary-600 max-w-3xl">
-              My professional journey has equipped me with hands-on experience and the skills necessary to deliver exceptional results.
+              Durch meine berufliche Laufbahn konnte ich fundierte Praxiserfahrung 
+              sammeln und die Kompetenzen entwickeln, um nachhaltige und qualitativ hochwertige 
+              Ergebnisse zu erzielen.
             </p>
           </ScrollAnimation>
         </div>
