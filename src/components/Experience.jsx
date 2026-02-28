@@ -17,57 +17,27 @@ const Experience = () => {
       ]
     },
     {
-      role: "Software Developer",
+      role: "Softwareentwickler",
       company: "Continental AG",
-      duration: "15/08/2022",
+      duration: "Aug 2022 – Jan 2023",
       location: "Lindau, Germany",
       description: [
-        "Built Python scripts to process .pcd files from autonomous vehicle LIDAR sensors stored in ROSBag (.bag) logs. Cleaned/filtered 3D point clouds with NumPy, enriched with metadata via Pandas, and exported to CSV for ML and analytics teams.",
-        "Verified data quality using Open3D, ensuring noise removal did not discard critical information.",
-        "Designed and deployed CI/CD pipelines with Jenkins, Bash, and GitHub webhooks on a Linux HPC cluster (SLURM), automating build, test, and deployment, cutting integration time by 30%.",
-        "Automated rollback and failure alerts (email/Slack) and optimized HPC module loading for faster perception algorithm testing.",
-        "Managed GitHub workflows, enforced code reviews, and wrote contribution guidelines.",
-        "Created Jira (JQL) KPI dashboards tracking sprint velocity, bug counts, and build times. Integrated with Confluence for real-time stakeholder updates.",
+        "Erstellung von Python Skripten zur Verarbeitung von 10 GB LiDAR-Daten (.pcd, ROSBag), Bereinigung und Anreicherung von 3D-Punktwolken mit NumPy und Pandas für zuverlässige ML-Datensätze.",
+        "Design und Implementierung von CI/CD-Pipelines mit Jenkins, Bash und GitHub-Webhooks auf einem Linux-HPC-Cluster, Reduzierung der Integrationszeit um 30 %.",
+        "Automatisierung von Rollbacks, Benachrichtigungen (Slack/E-Mail) und HPC-Modulladung, Beschleunigung der Testphase von Wahrnehmungsalgorithmen und Verringerung der Ausfallzeiten.",
+        "Entwicklung von Jira Dashboards (JQL) und Integration in Confluence zur Verbesserung des Sprint Trackings und der Stakeholder Berichterstattung.",
       ]
     },
     {
-      role: "Data Engineer",
+      role: "Softwareentwickler (DevOps-Fokus)",
       company: "Jay Blues Technologies",
-      duration: "08/2019",
+      duration: "Aug 2019 – Sep 2020",
       location: "India",
       description: [
-        "Developed and validated machine learning models (classification & regression) achieving up to 85% accuracy, driving customer behavior analysis initiatives.",
-        "Conducted EDA to uncover anomalies and patterns, generating insights that guided 2+ product strategy decisions.",
-        "Automated model training, validation, and deployment with CI/CD pipelines, Docker, and AWS, integrating Grafana for monitoring and real-time performance tracking.",
-        "Designed interactive dashboards in Tableau and Power BI, enabling stakeholders to track KPIs and optimize retention strategies.",
-      ]
-    },
-    {
-      role: "CNC machines Department Intern",
-      company: "Ace Micromatic Group (AMG)",
-      duration: "07/2018",
-      location: "Bangalore, India",
-      description: [
-        "Interned on various series of CNC lathe machines (Jobber, Superjobber, and LT series) and tests like Ballbar, geometrical, laser, coolant, profile, load, and final inspection.",
-      ]
-    },
-    {
-      role: "Aviation Department Intern",
-      company: "Hindustan Aeronautics Limited (HAL)",
-      duration: "06/2018",
-      location: "Bangalore, India",
-      description: [
-        "Interned under Aircraft division which covers about structural sub-assemblies such as Doors, Pylons, Fairings, Drop Tanks, Control Structures, etc",
-        "Learned about Precision sheet metal forming (Cold or Hot Forming) and welding of Aircraft components out of light alloys, various heat treatment processes, Aircraft Transparencies, landing gears, and final inspections.",
-      ]
-    },
-    {
-      role: "Automobile Department Intern",
-      company: "Bangalore Metropolitan Transport Corporation (BMTC)",
-      duration: "02/2018",
-      location: "Bangalore, India",
-      description: [
-        "Interned on bus components like engine, transmission, differential, clutch, brake system and also an overview on bus body design.",
+        "Entwurf und Wartung cloud-nativer CI/CD-Pipelines mit Jenkins, Kubernetes (EKS), IAM und GitLab CI zur Automatisierung von Build, Test und Deployment Workflows.",
+        "Containerisierung von Anwendungen mit Docker sowie automatisierte Infrastruktur Provisionierung und Konfiguration mit Terraform und Ansible Playbooks, um skalierbare Deployments auf AWS sicherzustellen.",
+        "Entwicklung von Bash und Python Skripten zur Prozessautomatisierung sowie Implementierung von Monitoring und Alerting Lösungen mit Grafana und Prometheus.",
+        "Zusammenarbeit in einem agilen Team unter Anwendung Git-basierter Workflows und DevOps Best Practices über den gesamten Software-Lifecycle hinweg.",
       ]
     }
   ];
@@ -75,20 +45,20 @@ const Experience = () => {
   const education = [
     {
       degree: "Masters in Digital Engineering",
-      institution: "Bauhaus University Weimar",
-      duration: "04/2025",
-      country: "Germany",
+      institution: "Bauhaus Universität Weimar",
+      duration: "Okt 2020 – Apr 2025",
+      country: "Deutschland",
       description: [
-        "Modules: Object-oriented Programming, Algorithms and Data Structures, Software Engineering, Machine Learning, Statistics, Photogrammetric Computer Vision, Image analysis and object recognitions, Advanced BIM, etc"
+        "Module: Machine Learning, Algorithmen und Datenstrukturen, Software Engineering, Objektorientierte Modellierung und Programmierung, Statistik"
       ]
     },
     {
-      degree: "Bachelors in Mechanical Engineering",
+      degree: "Bachelor in Maschinenbau",
       institution: "Dayananda Sagar College of Engineering",
       duration: "2019",
-      country: "India",
+      country: "Indien",
       description: [
-        "Awarded ‘Best Innovative Project’ in the final project exhibition"
+        "Ausgezeichnet mit dem Preis „Best Innovative Project“ bei der Abschlussprojektausstellung"
       ]
     }
   ];
@@ -98,7 +68,7 @@ const Experience = () => {
       <div className="container">
         <div className="mb-16">
           <ScrollAnimation>
-            <h2 className="section-title">Berufserfahrung</h2>
+            <h2 className="section-title">Erfahrung</h2>
             <p className="text-secondary-600 max-w-3xl">
               Durch meine berufliche Laufbahn konnte ich fundierte Praxiserfahrung 
               sammeln und die Kompetenzen entwickeln, um nachhaltige und qualitativ hochwertige 
@@ -113,7 +83,7 @@ const Experience = () => {
             <ScrollAnimation>
               <div className="flex items-center mb-8">
                 <FiBriefcase className="text-primary-500 text-2xl mr-3" />
-                <h3 className="text-2xl font-semibold">Work Experience</h3>
+                <h3 className="text-2xl font-semibold">Berufserfahrung</h3>
               </div>
             </ScrollAnimation>
 
@@ -146,7 +116,7 @@ const Experience = () => {
             <ScrollAnimation>
               <div className="flex items-center mb-8">
                 <FiBookOpen className="text-primary-500 text-2xl mr-3" />
-                <h3 className="text-2xl font-semibold">Education</h3>
+                <h3 className="text-2xl font-semibold">Ausbildung</h3>
               </div>
             </ScrollAnimation>
 
