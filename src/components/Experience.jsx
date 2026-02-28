@@ -102,7 +102,7 @@ const Experience = () => {
                     </div>
                     <ul className="list-disc list-inside marker:text-primary-500 space-y-2 text-secondary-600">
                       {experience.description.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="text-justify">{item}</li>
                       ))}
                     </ul>
                   </div>
