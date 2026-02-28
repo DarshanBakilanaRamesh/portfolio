@@ -14,13 +14,13 @@ const Hero = () => {
       <div className="container">
         <div className="max-w-3xl">
           <ScrollAnimation>
-            <span className="inline-block text-primary-500 font-semibold mb-2">Hello, I'm</span>
+            <span className="inline-block text-primary-500 font-semibold mb-2">Hallo, ich bin</span>
             <h1 className="text-4xl md:text-6xl font-bold mb-5">
               Darshan Bakilana Ramesh
             </h1>
             <p className="text-xl md:text-2xl text-secondary-600 mb-8">
-              Interdisciplinary <span className="text-primary-500 font-medium">DevOps Engineer</span> with a passion for trustworthy AI and 
-              open-source contributions.
+              Interdisziplinärer <span className="text-primary-500 font-medium">DevOps Engineer</span> mit einer Leidenschaft für 
+              vertrauenswürdige KI und Open-Source-Beiträge.
             </p>
           </ScrollAnimation>
           
@@ -30,14 +30,14 @@ const Hero = () => {
                 href="#contact" 
                 className="btn btn-primary shadow-lg shadow-primary-500/20"
               >
-                Get in Touch
+                Kontakt aufnehmen
                 <FiArrowRight className="ml-2" />
               </a>
               <a 
                 href="#projects" 
                 className="btn btn-secondary"
               >
-                View My Projects
+                Projekte ansehen
               </a>
             </div>
           </ScrollAnimation>
