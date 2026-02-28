@@ -19,13 +19,15 @@ const About = () => {
 
           <div>
             <ScrollAnimation>
-              <h2 className="section-title">About Me</h2>
+              <h2 className="section-title">Über mich</h2>
               <p className="text-secondary-700 mb-6">
-                Perseverance and fast learning ability, Good Communication skills, Ability to work in a group, Problem-solving nature, having selfconfidence.
+                Ich bin ein interdisziplinärer DevOps und KI-Engineer mit Erfahrung in skalierbaren Cloud-Infrastrukturen auf AWS sowie 
+                automatisierten CI/CD-Pipelines mit Jenkins und GitHub Actions. Mein Schwerpunkt liegt auf Infrastructure as Code mit 
+                Terraform und containerisierten Deployments mit Docker und Kubernetes.
               </p>
               <p className="text-secondary-700 mb-6">
-              I bring together strong technical expertise and a creative mindset to build solutions that go beyond expectations. 
-              With a passion for continuous learning, I stay current with emerging technologies to drive innovation and deliver real impact.
+              Mit Ansible automatisiere ich Konfigurations- und Deployment-Prozesse und entwickle zuverlässige, reproduzierbare 
+              Systeme im Bereich Machine Learning und Robotik.
               </p>
             </ScrollAnimation>
 
@@ -36,15 +38,15 @@ const About = () => {
                   <p className="text-secondary-600">Darshan Bakilana Ramesh</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Email:</h3>
+                  <h3 className="font-semibold mb-2">E-mail:</h3>
                   <p className="text-secondary-600">darshanbakilanaramesh@gmail.com</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Location:</h3>
+                  <h3 className="font-semibold mb-2">Standort:</h3>
                   <p className="text-secondary-600">Weimar, Germany</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Phone:</h3>
+                  <h3 className="font-semibold mb-2">Telefon:</h3>
                   <p className="text-secondary-600">+49 15777687063</p>
                 </div>
               </div>
@@ -57,7 +59,7 @@ const About = () => {
                 download
               >
                 <FiDownload className="mr-2" />
-                Download Resume
+                Lebenslauf herunterladen
               </a>
             </ScrollAnimation>
           </div>
