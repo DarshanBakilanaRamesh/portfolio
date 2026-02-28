@@ -12,7 +12,7 @@ const Skills = () => {
     {
       title: "Cloud & Infrastructure",
       icon: <FiDatabase />,
-      skills: ["AWS (EC2, EKS)", "Docker", "Kubernetes", "Terraform", "Ansible"],
+      skills: ["AWS (EC2, EKS)", "Docker", "Kubernetes", "Helm Charts", "Terraform", "Ansible"],
     },
     {
       title: "CI/CD & DevOps",
