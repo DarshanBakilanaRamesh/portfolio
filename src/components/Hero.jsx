@@ -19,7 +19,7 @@ const Hero = () => {
               Darshan Bakilana Ramesh
             </h1>
             <p className="text-xl md:text-2xl text-secondary-600 mb-8">
-              Interdisciplinary <span className="text-primary-500 font-medium">Developer</span> with a passion for trustworthy AI and 
+              Interdisciplinary <span className="text-primary-500 font-medium">DevOps Engineer</span> with a passion for trustworthy AI and 
               open-source contributions.
             </p>
           </ScrollAnimation>
