@@ -32,14 +32,14 @@ const About = () => {
             </ScrollAnimation>
 
             <ScrollAnimation delay={0.2}>
-              <div className="grid grid-cols-2 gap-4 mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div>
                   <h3 className="font-semibold mb-2">Name:</h3>
                   <p className="text-secondary-600">Darshan Bakilana Ramesh</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">E-mail:</h3>
-                  <p className="text-secondary-600">darshanbakilanaramesh@gmail.com</p>
+                  <p className="text-secondary-600 break-all">darshanbakilanaramesh@gmail.com</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Standort:</h3>
