@@ -23,4 +23,5 @@ jobs:
             docker build -t portfolio-site .
             docker rm -f portfolio || true
             docker run -d --restart unless-stopped --name portfolio -p 80:80 portfolio-site
-            curl -I http://localhost
+            sleep 5
+            curl --retry 5 --retry-delay 2 --retry-connrefused -I http://localhost
