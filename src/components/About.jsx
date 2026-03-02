@@ -43,7 +43,7 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Standort:</h3>
-                  <p className="text-secondary-600">Weimar, Germany</p>
+                  <p className="text-secondary-600">Weimar, Deutschland</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Telefon:</h3>
