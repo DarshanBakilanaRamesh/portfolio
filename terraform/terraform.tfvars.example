@@ -1,0 +1,3 @@
+ami_id           = "ami-xxxxxxxxxxxxxxxxx"
+key_pair_name    = "your-existing-keypair-name"
+ssh_allowed_cidrs = ["YOUR_IP/32"]
