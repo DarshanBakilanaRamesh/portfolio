@@ -35,7 +35,7 @@ const Header = () => {
     >
       <div className="container flex justify-between items-center">
         <a href="#home" className="font-bold text-2xl">
-          <span className="text-primary-500">Portfolio vorstellung</span>
+          <span className="text-primary-500">Portfolios</span>
         </a>
 
         {/* Desktop Navigation */}
